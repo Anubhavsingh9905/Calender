@@ -4,7 +4,7 @@ A high-fidelity, responsive "Wall Calendar" component built with React and Tailw
 
 ## 🎥 Video
 * **Video Walkthrough:**  
-    
+[![Watch the demo](./frontend/src/assets/thumbnail.png)](https://youtu.be/TLtqX0o0Vlo)
 
 ---
 
@@ -25,8 +25,6 @@ A high-fidelity, responsive "Wall Calendar" component built with React and Tailw
 ### 4. Integrated Notes System
 - **Contextual Memos:** A lined-paper notepad that automatically reflects the current date selection.
 - **Responsive Layout:** Side-by-side view on Desktop and a smart-stacked vertical view on Mobile.
-
----
 
 ---
 
@@ -54,24 +52,17 @@ src/
 
 # Installation & Setup
 
-### 1. Clone the repository
+### Clone the repository
 ```
-git clone https://github.com/Anubhavsingh9905/LearningOrganizer.git
-cd LearningOrganizer
+git clone https://github.com/Anubhavsingh9905/Calender.git
 ```
 
----
-
+### Run Frontend
 ```
 cd Calender
 npm install
-```
-
-Run Frontend
-```
 npm run dev
 ```
 
-#👨‍💻 Author
-
-**Anubhav Singh**
+# 👨‍💻 Author
+ **Anubhav Singh**
