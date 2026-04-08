@@ -1,0 +1,45 @@
+
+.perspectiveContainer { 
+  position: relative;
+  overflow: visible; 
+}
+
+.flippingPage {
+  transform-style: preserve-3d; 
+  backface-visibility: hidden;
+  transform-origin: top;
+}
+
+
+.animateFlipUp {
+  animation: flipUp 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes flipUp {
+  0% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: rotateX(110deg) translateY(-50px);
+    opacity: 0;
+  }
+}
+
+.animateFlipDown {
+  animation: flipDown 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes flipDown {
+  0% {
+    transform: rotateX(-110deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
