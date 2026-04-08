@@ -4,7 +4,9 @@ A high-fidelity, responsive "Wall Calendar" component built with React and Tailw
 
 ## 🎥 Video
 * **Video Walkthrough:**  
-[![Watch the demo](/src/assets/thumbnail.png)](https://youtu.be/TLtqX0o0Vlo)
+<a href="https://youtu.be/TLtqX0o0Vlo">
+  <img src="/src/assets/thumbnail.png" alt="Watch the demo" width="450" />
+</a>
 
 ---
 
