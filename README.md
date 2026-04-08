@@ -1,12 +1,77 @@
-# React + Vite
+# 🗓️ Interactive Wall Calendar - Frontend Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity, responsive "Wall Calendar" component built with React and Tailwind CSS. This project features a physical-calendar aesthetic, 3D page-flip animations, and a dynamic color-theming journey.
 
-Currently, two official plugins are available:
+## 🎥 Video
+* **Video Walkthrough:**  
+    
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Wall Calendar Aesthetic
+- **Physical Details:** Simulated spiral binding and "hanging hole" UI to mimic a real wall calendar.
+- **Dynamic Hero Images:** The header image updates contextually with each month.
+- **Color Journey:** The UI color palette morphs from **Blue (January)** to **Red (December)**, symbolizing a year-long journey.
+
+### 2. Advanced Range Selection
+- **Two-Click Logic:** An intuitive system for selecting start and end dates.
+- **Smart Highlighting:** Distinct visual states for the `Start Date`, `End Date`, and the `Spanned Range`.
+
+### 3. Smooth 3D Animations
+- **Page Flip:** Utilizes CSS 3D transforms (`rotateX`) and hardware acceleration to simulate a physical page being turned when navigating months.
+
+### 4. Integrated Notes System
+- **Contextual Memos:** A lined-paper notepad that automatically reflects the current date selection.
+- **Responsive Layout:** Side-by-side view on Desktop and a smart-stacked vertical view on Mobile.
+
+---
+
+---
+
+# Tech Stack
+- React (Vite)
+- CSS and TailwindCSS
+
+---
+
+## 🏗️ Project Architecture
+
+```text
+src/
+├── assets/             # Static images (Rings, Hero placeholders)
+├── components/         # Functional UI Units
+│   ├── HeroSection.jsx # Top display with month/year & 3D flip logic
+│   ├── DateSection.jsx # Calendar grid & range selection logic
+│   └── NotesSection.jsx# Lined-paper memo area with range display
+├── App.jsx             # Global State Management (Date & Color Theme)
+├── App.css             # Custom 3D animations and perspective logic
+└── main.jsx            # Entry point
+
+```
+---
+
+# Installation & Setup
+
+### 1. Clone the repository
+```
+git clone https://github.com/Anubhavsingh9905/LearningOrganizer.git
+cd LearningOrganizer
+```
+
+---
+
+```
+cd Calender
+npm install
+```
+
+Run Frontend
+```
+npm run dev
+```
+
+#👨‍💻 Author
+
+**Anubhav Singh**
